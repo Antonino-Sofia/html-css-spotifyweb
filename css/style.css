@@ -30,3 +30,62 @@ body {
   padding-top: 20px;
   background: #000;
 }
+
+.navbar-left-menu {
+  flex-grow: 1;
+}
+
+.navbar-left-menu h5 {
+  margin-left: 20px;
+}
+
+.navbar-left-menu .navbar-logo {
+  margin-left: 20px;
+  max-width: 130px;
+}
+
+.navbar-left-menu .navbar-logo.mobile {
+  height: 40px;
+  display: none;
+}
+
+.navbar-left-menu ul li {
+  padding: 0 20px;
+}
+
+.navbar-left-menu ul li {
+  border-left: solid 1px transparent;
+  transition: border 0.5s;
+}
+
+.navbar-left-menu ul li:hover {
+  border-left: solid 4px #81b71a;
+}
+
+.navbar-left-menu ul li.active {
+  border-left: solid 4px #81b71a;
+}
+
+.navbar-left-menu ul li .fa-plus {
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.navbar-left-menu ul img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.navbar-left-menu .nav span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-left-user {
+  padding: 20px 20px 0;
+}
