@@ -4,16 +4,7 @@
   box-sizing: border-box;
 }
 
-.image {
-  width: 100%;
-  display: block;
-}
-
-.flex-row {
-  display: flex;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
+body {
+  font-family: "Lato", sans-serif;
+  color: rgba(153, 153, 153, 0.7);
 }
