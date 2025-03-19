@@ -8,3 +8,25 @@ body {
   font-family: "Lato", sans-serif;
   color: rgba(153, 153, 153, 0.7);
 }
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-window {
+  flex-grow: 1;
+  display: flex;
+  background: #141921;
+}
+
+/* navbar-sinistra */
+
+.navbar-left {
+  display: flex;
+  flex-basis: 230px;
+  flex-direction: column;
+  padding-top: 20px;
+  background: #000;
+}
