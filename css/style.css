@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Gotham", sans-serif;
   color: rgba(153, 153, 153, 0.7);
 }
 
@@ -94,6 +94,11 @@ h5 {
   margin-bottom: 5px;
 }
 
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
 /* navbar-sinistra */
 
 .navbar-left {
@@ -169,4 +174,45 @@ h5 {
 
 /* tablet */
 @media screen and (max-width: 1024px) {
+}
+
+/* contenuto scroll */
+
+.scrollable-container {
+  position: relative;
+  flex-grow: 1;
+}
+
+.scrollable-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100px;
+  width: 100%;
+  padding-right: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
+}
+
+/* buttons */
+
+.btn {
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 15px 40px;
+}
+
+.btn-outline {
+  border-radius: 40px;
+  color: #fff;
+  border: solid 1px;
+  transition: transform 0.3s;
+}
+
+.btn-outline:hover {
+  transform: scale(1.1);
 }
